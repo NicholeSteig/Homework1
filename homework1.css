@@ -1,0 +1,18 @@
+.namebox {
+    background-color: #FFD0D4;
+    color: #008E9F;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', arial, sans-serif;
+    width: 130px;
+    height: 24px;
+    float: left;
+    text-align: center;
+  }
+
+.headlinks {
+    font-size 10px;
+    font-family: 'Roboto', arial, sans-serif;
+    float: right;
+}
