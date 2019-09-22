@@ -1,23 +1,30 @@
 .headbar {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
-  padding: 30px 0 0 30px;
-  border-bottom: 5px black;
+  background-color: #ffffff
+  width: 960px;
+  margin: 0 120px 0 120px;
+}
+.image{
+  float: left;
+  padding: 0 12px 0 0;
 }
 
 .name {
     background-color: #4aaaa5;
-    color: white;
-    font-size: 24px;
+    color: #ffffff;
+    font-size: 30px;
     padding: 15px 15px 15px 15px;
     text-align: center;
     display: inline-block;
+    float: left;
   }
 
 .about {
   background-color: #ffffff;
   color: #777777;
   display: inline-block;
-    padding: 15px 0 0 15px;
+  padding: 15px 15px 15px 15px;
+  font-size: 16;
     
 }
 
@@ -27,7 +34,8 @@
   background-color: #ffffff;
   color: #777777;
   display: inline-block;
-    padding: 15px 0 0 15px;
+  padding: 15px 15px 15px 15px;
+  font-size: 16;
 }
     
 
@@ -35,24 +43,41 @@
   background-color: #ffffff;
   color: #777777;
   display: inline-block;
-    padding: 15px 0 0 15px;
+  padding: 15px 15px 15px 15px;
+  font-size: 16;
    
 }
 .links{
   float: right;
 }
 
-.body{
-  width: 960px;
-}
 
-#p{
-  float: left;
+
+.body{
+ float: left;
+  width: 960px;
+  background-color: white;
+  padding: 15px 10px 15px 10px;
+  margin: 0 120px 0 120px;
 }
 .aboutme{
-  font-size: 24px;
-  color: #4aaaa5;
-  border-bottom: 2px black;
-  
+  font-size: 30px;
+  color:  #4aaaa5;
+  padding: 20px 0 20px 0
+ }
+
+ 
+
+.bio{
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: right;
+  font-size: 16;
 
 }
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #666666;
+  }
+
