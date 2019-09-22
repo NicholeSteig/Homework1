@@ -1,8 +1,10 @@
 .headbar {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
-  background-color: #ffffff
-  width: 960px;
-  margin: 0 120px 0 120px;
+  background-color: #ffffff;
+  padding: 0 120px 0 120px;
+  border-bottom: 5px;
+  border-bottom-color: #666666;
+
 }
 .image{
   float: left;
@@ -16,15 +18,25 @@
     padding: 15px 15px 15px 15px;
     text-align: center;
     display: inline-block;
-    float: left;
+    border-bottom: 5px;
+  border-bottom-color: #666666;
+ 
   }
 
+  .links {
+    float: right;
+    border-bottom: 5px;
+  border-bottom-color: #666666;
+  }
+  
 .about {
   background-color: #ffffff;
   color: #777777;
   display: inline-block;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 15px 0 630px;
   font-size: 16;
+  text-align: center;
+  
     
 }
 
@@ -34,8 +46,10 @@
   background-color: #ffffff;
   color: #777777;
   display: inline-block;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 15px 0 15px;
   font-size: 16;
+  text-align: center;
+
 }
     
 
@@ -43,22 +57,23 @@
   background-color: #ffffff;
   color: #777777;
   display: inline-block;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 15px 0 15px;
   font-size: 16;
+  text-align: center;
+  
    
-}
-.links{
-  float: right;
 }
 
 
 
 .body{
  float: left;
-  width: 960px;
+  
   background-color: white;
   padding: 15px 10px 15px 10px;
   margin: 0 120px 0 120px;
+  border-width: 2px;
+  border-color: #777777
 }
 .aboutme{
   font-size: 30px;
@@ -79,5 +94,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: #666666;
+    height: 20px;
+    margin: 400px 0 0 0;
   }
 
